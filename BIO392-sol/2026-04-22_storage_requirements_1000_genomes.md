@@ -41,3 +41,10 @@ The WES storage requirements were calculated by multiplying the WGS storage requ
 ##### FASTA
 - WGS: 103.14CHF
 - WES: 1.03CHF
+### Cost Factors 
+The real costs are way bigger and there are other factors
+- storage facilities, service etc.
+- Long-term archival vs active storage
+## Conclusion
+Choosing a fitting file format and sequencing method strongly depends on purpose. If the WES information is sufficient, I would always choose it over WGS due to resource management. Regarding File Formats, I would ideally store most genomes in VCF format and then have i.e a FASTA reference for comparison. SAM files are better converted into BAM before storage again to better manage resources. SAM and BAM I would only use if absolutely required by the research question or context. 
+
