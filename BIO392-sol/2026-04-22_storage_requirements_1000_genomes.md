@@ -25,3 +25,19 @@ The WES storage requirements were calculated by multiplying the WGS storage requ
 - Contains assembled reference genome
 - storage requirements per genome (WGS): ~3GB
 - storage requirements per genome (WES): ~0.03GB
+## Costs
+### Raw Storage Costs
+- 550CHF ÷ 16TB = 34.38CHF/TB = 0.03438CHF/GB
+#### Applied to the File Formats (for 1000 genomes):
+##### SAM
+- WGS: 17'190CHF
+- WES: 171.9CHF
+##### BAM
+- WGS: 1'890.9CHF
+- WES: 18.91CHF
+##### VCF
+- WGS: 103.14CHF
+- WES: 1.03CHF
+##### FASTA
+- WGS: 103.14CHF
+- WES: 1.03CHF
