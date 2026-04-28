@@ -5,18 +5,23 @@
 - WGS: Whole genome sequencing -> The whole human genome is covered -> 3000Mb per genome
   - for 1000 genomes: 3000000Mb
 ## File formats
+The WES storage requirements were calculated by multiplying the WGS storage requirements with 1%
 ### SAM
 - Sequence Alingment Map
 - Text based -> readable for humans but very big
 - storage requirements per genome (WGS): up to 500GB
+- storage requirements per genome (WES): up to 5GB
 ### BAM
 - Binary SAM
 - not readable for humans but smaller than SAM (compressed)
 - storage requirements per genome (WGS): up to 55GB
+- storage requirements per genome (WES): up to 0.55GB
 ### VCF
 - Variant Call Format
 - Only contains variant calls -> small
-- storage requirements per genome (WGS): ~3GB 
+- storage requirements per genome (WGS): ~3GB
+- storage requirements per genome (WES): ~0.03GB
 ### FASTA
 - Contains assembled reference genome
 - storage requirements per genome (WGS): ~3GB
+- storage requirements per genome (WES): ~0.03GB
